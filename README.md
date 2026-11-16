@@ -1,4 +1,4 @@
-# TACTIQ AI
+# STRATIQ
 
 **Football Possession Estimation System**  
 MORE THAN A HACK 2027 — Initial Challenge  
