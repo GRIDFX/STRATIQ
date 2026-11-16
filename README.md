@@ -44,9 +44,7 @@ Its main objective is to produce consistent frame-level possession labels while 
 ```text
 STRATIQ/
 ├── docs/
-│   ├── AI_HANDOFF.md
 │   ├── ALGORITHM.md
-│   ├── COMPETITION_RULES.md
 │   ├── DATA_DICTIONARY.md
 │   └── ...
 ├── scripts/
@@ -181,9 +179,8 @@ Additional technical documentation is available in the `docs/` directory:
 
 - `ALGORITHM.md` — algorithm design and decision logic.
 - `DATA_DICTIONARY.md` — internal data representation.
-- `COMPETITION_RULES.md` — competition requirements and restrictions.
 - `REPRODUCIBLE_ENVIRONMENT.md` — environment setup.
-- `SAFE_AI_AND_SUBMISSION_WORKFLOW.md` — data-handling and AI-use workflow.
+ workflow.
 
 ## Team
 
