@@ -103,7 +103,7 @@ def build_submission(data_dir: str | Path, output_path: str | Path) -> Path:
 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Generate TACTIQ AI possession submission from local data."
+        description="Generate STRATIQ possession submission from local data."
     )
     parser.add_argument(
         "--data-dir",

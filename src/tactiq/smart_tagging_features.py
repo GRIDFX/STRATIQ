@@ -190,7 +190,7 @@ def extract_smart_tagging_features(
 
 
 def print_summary(features):
-    print("\nTACTIQ AI - SMART TAGGING FEATURES")
+    print("\nSTRATIQ - SMART TAGGING FEATURES")
     print("=" * 55)
     print(f"Frames                    : {features.n_frames:,}")
     print(

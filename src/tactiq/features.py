@@ -196,7 +196,7 @@ def print_feature_summary(features, radius=5.0):
     total = len(visible)
     visible_count = int(visible.sum())
 
-    print("\nTACTIQ AI - FEATURE ENGINEERING REPORT")
+    print("\nSTRATIQ - FEATURE ENGINEERING REPORT")
     print("=" * 45)
     print(f"Total frames          : {total:,}")
     print(f"Frames with ball      : {visible_count:,}")

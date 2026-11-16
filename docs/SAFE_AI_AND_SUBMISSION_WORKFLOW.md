@@ -1,4 +1,4 @@
-# TACTIQ AI — Safe AI and Submission Workflow
+# STRATIQ — Safe AI and Submission Workflow
 
 This checklist is a project workflow guardrail. The competition Terms and
 Conditions accepted during registration remain authoritative.

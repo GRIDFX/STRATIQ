@@ -1,4 +1,4 @@
-# TACTIQ AI — Coding Agent Handoff
+# STRATIQ — Coding Agent Handoff
 
 ## Project
 MORE THAN A HACK 2027 — Initial Challenge.

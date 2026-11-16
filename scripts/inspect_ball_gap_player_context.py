@@ -79,7 +79,7 @@ def main():
 
     candidates.sort(key=lambda item: item["distance"], reverse=True)
 
-    print("\nTACTIQ AI - BALL GAP / PLAYER CONTEXT")
+    print("\nSTRATIQ - BALL GAP / PLAYER CONTEXT")
     print("=" * 100)
     print(f"Eligible short intervals: {len(candidates)}")
 

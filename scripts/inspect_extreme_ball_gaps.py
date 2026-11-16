@@ -67,7 +67,7 @@ def main():
 
     records.sort(key=lambda item: item["distance"], reverse=True)
 
-    print("\nTACTIQ AI - EXTREME BALL GAP INSPECTION")
+    print("\nSTRATIQ - EXTREME BALL GAP INSPECTION")
     print("=" * 95)
     print(f"Total missing intervals          : {len(runs)}")
     print(f"Complete intervals inspected     : {len(records)}")

@@ -65,7 +65,7 @@ def print_report(events):
     counts = Counter(event.code for event in events)
     invalid, duplicate_ids = validate_events(events)
 
-    print("\nTACTIQ AI - SMART TAGGING REPORT")
+    print("\nSTRATIQ - SMART TAGGING REPORT")
     print("=" * 55)
     print(f"Total events       : {len(events)}")
     print(f"Invalid intervals  : {len(invalid)}")

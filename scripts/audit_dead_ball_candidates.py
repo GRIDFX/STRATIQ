@@ -96,7 +96,7 @@ def main():
     missing_mask = ~visible_mask
 
     print("\n" + "=" * 65)
-    print("TACTIQ AI - DEAD BALL CANDIDATE AUDIT")
+    print("STRATIQ - DEAD BALL CANDIDATE AUDIT")
     print("=" * 65)
     print(f"Total tracking frames       : {data.n_frames:,}")
     print(f"Smart Tagging frame count   : {smart.n_frames:,}")

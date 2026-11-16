@@ -1,8 +1,8 @@
-# TACTIQ AI — Data Dictionary
+# STRATIQ — Data Dictionary
 
 ## 1. Overview
 
-This document describes the general structure and interpretation of the tracking data processed by TACTIQ AI.
+This document describes the general structure and interpretation of the tracking data processed by STRATIQ.
 
 It serves as technical documentation for the internal data representation, feature extraction process, and possession-estimation pipeline.
 

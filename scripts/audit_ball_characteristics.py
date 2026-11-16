@@ -50,7 +50,7 @@ def main():
     valid_speed = np.isfinite(reported_speed)
     speed_values = reported_speed[valid_speed]
 
-    print("\nTACTIQ AI - BALL CHARACTERISTICS AUDIT")
+    print("\nSTRATIQ - BALL CHARACTERISTICS AUDIT")
     print("=" * 65)
 
     print("\n1. BALL VISIBILITY")

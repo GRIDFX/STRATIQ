@@ -58,7 +58,7 @@ def main():
 
     candidates.sort(key=lambda item: item["distance"], reverse=True)
 
-    print("\nTACTIQ AI - SHORT BALL GAP FRAME INSPECTION")
+    print("\nSTRATIQ - SHORT BALL GAP FRAME INSPECTION")
     print("=" * 85)
     print(f"Eligible intervals: {len(candidates)}")
     print(f"Inspecting: {min(args.top, len(candidates))} cases")

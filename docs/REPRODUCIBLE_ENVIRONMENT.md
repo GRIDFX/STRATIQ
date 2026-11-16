@@ -12,7 +12,7 @@ environment. Change them only after deliberate compatibility testing.
 
 ## Fresh setup on Windows Git Bash
 
-Run from the `TACTIQ_AI` repository root:
+Run from the `STRATIQ` repository root:
 
 ```bash
 py -3.14 -m venv .venv

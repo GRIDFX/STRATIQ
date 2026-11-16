@@ -215,7 +215,7 @@ def main():
     ]
 
     print("\n" + "=" * 105)
-    print("TACTIQ AI - RESTART TEMPORAL AUDIT")
+    print("STRATIQ - RESTART TEMPORAL AUDIT")
     print("=" * 105)
     print(f"Total SET PIECES events : {total}")
     print(f"Analyzed events         : {len(all_records)}")

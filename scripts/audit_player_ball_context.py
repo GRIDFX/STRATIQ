@@ -133,7 +133,7 @@ def main():
 
     ball_visible = features.ball_visible
 
-    print("\nTACTIQ AI - PLAYER / BALL CONTEXT AUDIT")
+    print("\nSTRATIQ - PLAYER / BALL CONTEXT AUDIT")
     print("=" * 75)
     print(f"Total frames          : {data.n_frames:,}")
     print(f"Frames with visible ball: {np.sum(ball_visible):,}")

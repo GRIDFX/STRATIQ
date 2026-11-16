@@ -24,7 +24,7 @@ def main():
         if code == "SET PIECES"
     ]
 
-    print("\nTACTIQ AI - INDIVIDUAL RESTART EVENT INSPECTION")
+    print("\nSTRATIQ - INDIVIDUAL RESTART EVENT INSPECTION")
     print("=" * 95)
     print(f"Total SET PIECES events: {len(selected)}")
     print(

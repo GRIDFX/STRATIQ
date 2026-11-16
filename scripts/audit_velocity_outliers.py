@@ -75,7 +75,7 @@ track_names = [
     for i in range(len(data.team_codes))
 ]
 
-print("TACTIQ AI - CORRECTED VELOCITY OUTLIER AUDIT")
+print("STRATIQ - CORRECTED VELOCITY OUTLIER AUDIT")
 print("=" * 90)
 
 inspect(

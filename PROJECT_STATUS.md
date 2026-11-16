@@ -1,4 +1,4 @@
-# TACTIQ AI — Project Status
+# STRATIQ — Project Status
 
 Last updated: 2026-11-16
 
@@ -6,7 +6,7 @@ Last updated: 2026-11-16
 MORE THAN A HACK 2027 — Initial Challenge only.
 
 ## Repository
-- Local repository: TACTIQ_AI
+- Local repository: STRATIQ
 - Branch: main
 - GitHub upload: postponed until finalization.
 
@@ -17,16 +17,16 @@ MORE THAN A HACK 2027 — Initial Challenge only.
 - [x] D semantics documented as dead ball; restart context kept separate from possession.
 - [x] Pinned runtime/development dependency files and local reproduction instructions.
 
-## In Progress
-- [ ] Final owner-only run against permitted competition bundle.
-- [ ] Final exact CSV validation and byte-for-byte reproducibility check.
-- [ ] Final public repository content review and technical document export.
+## Completed locally
+- [x] Owner-only generation against the permitted competition bundle.
+- [x] Exact local CSV validation and byte-for-byte reproducibility check.
+- [x] Public repository content and documentation review.
+- [x] Public branding updated to STRATIQ; Python package `tactiq` preserved for compatibility.
 
 ## Pending / owner-only
-- [ ] Generate final real-data CSV locally after source review.
-- [ ] Run official validator against exact upload file.
 - [ ] Confirm team registration and 3–5 member eligibility.
 - [ ] Publish repository only after explicit owner approval.
+- [ ] Submit through the organizer's official process.
 
 ## Constraints
 - No ground-truth tuning.
@@ -36,10 +36,9 @@ MORE THAN A HACK 2027 — Initial Challenge only.
 - No GitHub upload before explicit approval.
 
 ## Next Actions
-1. Inspect official starter interfaces.
-2. Design compliant data loader.
-3. Develop AI Engine.
-4. Generate and validate submission.
+1. Review staged public files and exclude local data or generated outputs.
+2. Confirm team registration and submission requirements.
+3. Publish and submit only after owner approval.
 
 ## Progress
 Approximate overall planning estimate: 21%.

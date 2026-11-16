@@ -37,7 +37,7 @@ def analyze(data_dir, xml_path, fps=25):
     visible_count = int(ball_visible.sum())
     missing_count = int((~ball_visible).sum())
 
-    print("\nTACTIQ AI - FEATURE INTERACTION ANALYSIS")
+    print("\nSTRATIQ - FEATURE INTERACTION ANALYSIS")
     print("=" * 65)
     print(f"Total frames                 : {tracking.n_frames:,}")
     print(f"Frames with visible ball     : {visible_count:,}")

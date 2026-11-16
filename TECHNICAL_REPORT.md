@@ -1,17 +1,17 @@
-# TACTIQ AI — Technical Report
+# STRATIQ — Technical Report
 
 **Competition:** MORE THAN A HACK 2027  
 **Challenge:** Initial Challenge  
 **Team:** Peakbound to Barça  
-**Project:** TACTIQ AI — Football Possession Estimation System
+**Project:** STRATIQ — Football Possession Estimation System
 
 ## 1. Introduction
 
-TACTIQ AI is a football analytics system designed to estimate team possession at the frame level using structured football tracking data.
+STRATIQ is a football analytics system designed to estimate team possession at the frame level using structured football tracking data.
 
 The system focuses on identifying which team currently controls the ball while accounting for uncertain possession, temporary loss of observations, and dead-ball situations. Its objective is to produce temporally consistent possession predictions rather than relying on isolated player-to-ball distances in individual frames.
 
-TACTIQ AI uses a modular processing pipeline that combines tracking-data preprocessing, spatial and movement-related features, stateful possession estimation, and dead-ball evidence assessment.
+STRATIQ uses a modular processing pipeline that combines tracking-data preprocessing, spatial and movement-related features, stateful possession estimation, and dead-ball evidence assessment.
 
 ## 2. Problem Definition
 
@@ -19,7 +19,7 @@ The Initial Challenge requires estimating team possession throughout a football 
 
 For each frame, the system must determine the most appropriate possession state based on the available tracking information.
 
-TACTIQ AI uses four output labels:
+STRATIQ uses four output labels:
 
 - **H — Home:** The home team is considered to have possession.
 - **A — Away:** The away team is considered to have possession.
@@ -50,7 +50,7 @@ Raw competition data, private match assets, match-specific identifiers, and rest
 
 ## 4. Methodology
 
-TACTIQ AI follows a modular processing pipeline consisting of the following stages.
+STRATIQ follows a modular processing pipeline consisting of the following stages.
 
 ### 4.1 Data Preprocessing
 
@@ -124,7 +124,7 @@ Any additional external datasets, models, or third-party assets must be document
 
 ## 6. Competition Compliance
 
-TACTIQ AI is developed with the objective of respecting the competition's data-use, submission, and intellectual-property requirements.
+STRATIQ is developed with the objective of respecting the competition's data-use, submission, and intellectual-property requirements.
 
 The project follows these practices:
 
@@ -195,7 +195,7 @@ Competition datasets and generated match-specific outputs must be obtained and p
 
 ## 8. Limitations
 
-TACTIQ AI has several limitations that should be considered when interpreting its predictions.
+STRATIQ has several limitations that should be considered when interpreting its predictions.
 
 **Tracking uncertainty:** Missing, incomplete, or inaccurate tracking observations can reduce the reliability of possession estimation.
 
@@ -211,7 +211,7 @@ TACTIQ AI has several limitations that should be considered when interpreting it
 
 ## 9. Conclusion
 
-TACTIQ AI provides a modular approach to frame-level football possession estimation using structured tracking information.
+STRATIQ provides a modular approach to frame-level football possession estimation using structured tracking information.
 
 By combining spatial features, stateful possession decisions, temporal continuity, and separate dead-ball assessment, the system aims to produce more stable predictions under uncertain tracking conditions.
 

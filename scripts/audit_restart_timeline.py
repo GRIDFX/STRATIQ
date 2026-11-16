@@ -108,7 +108,7 @@ def main():
         })
 
     print("\n" + "=" * 75)
-    print("TACTIQ AI - RESTART EVENT TIMELINE AUDIT")
+    print("STRATIQ - RESTART EVENT TIMELINE AUDIT")
     print("=" * 75)
     print(f"Total SET PIECES events : {total_restart_events}")
     print(f"Analyzed events         : {sum(map(len, groups.values()))}")

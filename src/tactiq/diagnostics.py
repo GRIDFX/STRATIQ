@@ -1,4 +1,4 @@
-"""Technical diagnostics for TACTIQ AI possession estimation."""
+"""Technical diagnostics for STRATIQ possession estimation."""
 
 import argparse
 
@@ -66,7 +66,7 @@ def diagnose(data_dir):
     both_distances_valid = home_distance_valid & away_distance_valid
 
     print("\n" + "=" * 60)
-    print("TACTIQ AI - TECHNICAL DIAGNOSTICS")
+    print("STRATIQ - TECHNICAL DIAGNOSTICS")
     print("=" * 60)
 
     print(f"Total frames                  : {total:,}")

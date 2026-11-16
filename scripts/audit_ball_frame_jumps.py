@@ -30,7 +30,7 @@ def main():
     jumps = distances[valid_pairs]
     jump_frames = frame_indices
 
-    print("\nTACTIQ AI - CONSECUTIVE BALL FRAME JUMP AUDIT")
+    print("\nSTRATIQ - CONSECUTIVE BALL FRAME JUMP AUDIT")
     print("=" * 85)
     print(f"Total frames              : {len(ball):,}")
     print(f"Visible consecutive pairs : {len(jumps):,}")

@@ -1,10 +1,10 @@
-# TACTIQ AI — Project Overview
+# STRATIQ — Project Overview
 
 ## 1. Project Information
 
 | Attribute | Description |
 |---|---|
-| Project Name | TACTIQ AI |
+| Project Name | STRATIQ |
 | Competition | MORE THAN A HACK 2027 |
 | Challenge | Initial Challenge |
 | Team | Peakbound to Barça |
@@ -20,7 +20,7 @@ Estimating possession from tracking data is challenging because player positions
 
 A simple proximity-based approach may incorrectly identify possession changes when the ball is contested or when players from opposing teams are close to the ball.
 
-TACTIQ AI addresses these challenges through a structured processing pipeline that combines tracking-derived features with temporal decision logic.
+STRATIQ addresses these challenges through a structured processing pipeline that combines tracking-derived features with temporal decision logic.
 
 ## 3. Project Objectives
 
@@ -34,7 +34,7 @@ The main objectives are:
 
 ## 4. System Architecture
 
-TACTIQ AI follows a modular architecture.
+STRATIQ follows a modular architecture.
 
 ### 4.1 Data Loading
 
@@ -163,7 +163,7 @@ These labels allow the system to represent active possession, stoppages, and unc
 
 ## 7. Design Principles
 
-TACTIQ AI follows several core engineering principles.
+STRATIQ follows several core engineering principles.
 
 **Modularity:** Each processing stage has a defined responsibility.
 
@@ -217,7 +217,7 @@ The current rule-based approach also requires further evaluation to establish ho
 
 ## 11. Conclusion
 
-TACTIQ AI provides a modular and reproducible framework for estimating football possession from structured tracking data.
+STRATIQ provides a modular and reproducible framework for estimating football possession from structured tracking data.
 
 Its architecture combines spatial evidence, temporal continuity, contextual metadata, and dead-ball assessment to handle the ambiguity of frame-level possession estimation.
 

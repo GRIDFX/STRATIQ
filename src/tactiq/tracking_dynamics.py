@@ -69,7 +69,7 @@ def _report_speed(name, values):
 
 
 def print_summary(dynamics):
-    print("\nTACTIQ AI - REPORTED TRACKING SPEED REPORT")
+    print("\nSTRATIQ - REPORTED TRACKING SPEED REPORT")
     print("=" * 60)
     _report_speed("REPORTED PLAYER SPEED", dynamics.player_speed)
     _report_speed("REPORTED BALL SPEED", dynamics.ball_speed)

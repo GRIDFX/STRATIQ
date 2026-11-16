@@ -95,7 +95,7 @@ def main():
     data = load_tracking(Path(args.data_dir))
     features = extract_features(data)
 
-    print("\nTACTIQ AI - PLAYER/BALL DISTANCE TREND AUDIT")
+    print("\nSTRATIQ - PLAYER/BALL DISTANCE TREND AUDIT")
     print("=" * 72)
     print("Only consecutive frames with the same nearest-player track are used.")
     print("No possession labels or tracking data are modified.")

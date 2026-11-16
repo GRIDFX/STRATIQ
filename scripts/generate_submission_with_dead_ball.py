@@ -17,7 +17,7 @@ from tactiq.tracking_dynamics import extract_tracking_dynamics
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Generate a reproducible local TACTIQ AI H/A/D/X CSV."
+        description="Generate a reproducible local STRATIQ H/A/D/X CSV."
     )
     parser.add_argument("--data-dir", required=True,
                         help="Directory containing the tactical/ folder")

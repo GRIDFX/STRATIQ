@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the structure of a TACTIQ AI submission CSV locally.
+"""Validate the structure of a STRATIQ submission CSV locally.
 
 This tool reads only the final frame,label CSV supplied by the user. It does
 not open match videos, tracking files, ground truth, or other competition data.

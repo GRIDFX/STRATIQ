@@ -42,7 +42,7 @@ def main():
         else:
             gaps.append((previous, current, gap))
 
-    print("\nTACTIQ AI - RESTART OVERLAP AUDIT")
+    print("\nSTRATIQ - RESTART OVERLAP AUDIT")
     print("=" * 75)
     print(f"Total events             : {len(selected)}")
     print(f"Overlapping adjacent pairs: {len(overlaps)}")

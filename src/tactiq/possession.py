@@ -232,7 +232,7 @@ def print_possession_summary(result):
 
     total = len(result.labels)
 
-    print("\nTACTIQ AI - POSSESSION ESTIMATION REPORT")
+    print("\nSTRATIQ - POSSESSION ESTIMATION REPORT")
     print("=" * 48)
     print(f"Total frames : {total:,}")
 

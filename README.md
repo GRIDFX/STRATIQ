@@ -6,7 +6,7 @@ Team: **Peakbound to Barça**
 
 ## Overview
 
-TACTIQ AI is a football analytics project designed to estimate team possession at the frame level using structured football tracking data.
+STRATIQ is a football analytics project designed to estimate team possession at the frame level using structured football tracking data.
 
 The system combines spatial features, player-to-ball relationships, temporal continuity, and dead-ball evidence to generate possession predictions.
 
@@ -42,7 +42,7 @@ Its main objective is to produce consistent frame-level possession labels while 
 ## Project Structure
 
 ```text
-TACTIQ_AI/
+STRATIQ/
 ├── docs/
 │   ├── AI_HANDOFF.md
 │   ├── ALGORITHM.md
@@ -87,7 +87,7 @@ The verified development environment uses:
 
 ```bash
 git clone <YOUR_PUBLIC_REPOSITORY_URL>
-cd TACTIQ_AI
+cd STRATIQ
 ```
 
 Replace the repository URL with the actual public repository URL after publication.
@@ -127,18 +127,20 @@ Do not upload competition datasets, match videos, private annotations, or restri
 
 ## Generate a Submission
 
-Run the submission generator:
+Run the submission generator with competition data kept outside this repository:
 
 ```bash
-python scripts/generate_submission_with_dead_ball.py
+PYTHONPATH=src python scripts/generate_submission_with_dead_ball.py \
+  --data-dir ../path/to/competition-data \
+  --output outputs/submission_with_dead_ball.csv
 ```
 
-The generated submission is written to the configured local output location.
+The generated submission is written to the selected local output path.
 
 ## Validate the Submission
 
 ```bash
-python scripts/validate_submission_local.py
+python scripts/validate_submission_local.py outputs/submission_with_dead_ball.csv
 ```
 
 The local validator checks submission structure and formatting.
@@ -165,7 +167,7 @@ For detailed setup instructions, refer to:
 
 ## Data and Competition Compliance
 
-TACTIQ AI is developed with local processing of competition data as a core workflow principle.
+STRATIQ is developed with local processing of competition data as a core workflow principle.
 
 The public repository is intended to contain source code, documentation, tests, and configuration files rather than restricted competition assets.
 
@@ -186,7 +188,7 @@ Additional technical documentation is available in the `docs/` directory:
 ## Team
 
 **Peakbound to Barça**  
-Project: **TACTIQ AI**  
+Project: **STRATIQ**  
 Competition: **MORE THAN A HACK 2027**
 
 ---

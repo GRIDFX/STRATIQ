@@ -74,7 +74,7 @@ def main():
             "after_inside": after_inside,
         })
 
-    print("\nTACTIQ AI - MISSING BALL INTERVAL AUDIT")
+    print("\nSTRATIQ - MISSING BALL INTERVAL AUDIT")
     print("=" * 70)
     print(f"Total intervals: {len(runs)}")
 

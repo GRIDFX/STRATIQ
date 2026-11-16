@@ -48,7 +48,7 @@ Permission to inspect or process competition data does not imply permission to u
 
 ## 5. Development Principles
 
-TACTIQ AI follows these internal development principles:
+STRATIQ follows these internal development principles:
 
 1. Never use ground truth to select or tune an algorithm.
 2. Do not manually label the provided match.

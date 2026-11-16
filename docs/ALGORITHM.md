@@ -1,4 +1,4 @@
-# TACTIQ AI — Algorithm Design
+# STRATIQ — Algorithm Design
 
 ## Objective
 Estimate football possession for every frame of BAR-ATH.

@@ -1,4 +1,4 @@
-# TACTIQ AI — Initial Challenge Roadmap
+# STRATIQ — Initial Challenge Roadmap
 
 ## Phase 1: Repository Foundation
 - [x] Initialize local Git repository.

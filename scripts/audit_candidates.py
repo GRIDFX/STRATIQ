@@ -88,7 +88,7 @@ def main():
     x_valid = x_mask & valid
 
     print("\n" + "=" * 65)
-    print("TACTIQ AI - POSSESSION CANDIDATE AUDIT")
+    print("STRATIQ - POSSESSION CANDIDATE AUDIT")
     print("=" * 65)
     print(f"Control radius       : {args.control_radius:.2f} m")
     print(f"Distance advantage   : {args.distance_advantage:.2f} m")

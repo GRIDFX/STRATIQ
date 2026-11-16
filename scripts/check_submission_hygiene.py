@@ -138,7 +138,7 @@ def run_check(root: Path) -> int:
         if risks:
             findings.append((relative, risks))
 
-    print("TACTIQ AI — SUBMISSION HYGIENE PREFLIGHT")
+    print("STRATIQ — SUBMISSION HYGIENE PREFLIGHT")
     print("=" * 48)
     print(f"Repository : {root}")
     print(f"Scan mode  : {source}")

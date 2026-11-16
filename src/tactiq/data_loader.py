@@ -183,7 +183,7 @@ def print_summary(data):
     home_tracks = int(np.sum(data.team_codes == 0))
     away_tracks = int(np.sum(data.team_codes == 1))
 
-    print("\nTACTIQ AI - DATA LOADER REPORT")
+    print("\nSTRATIQ - DATA LOADER REPORT")
     print("=" * 40)
     print(f"Home team       : {data.home_name}")
     print(f"Away team       : {data.away_name}")

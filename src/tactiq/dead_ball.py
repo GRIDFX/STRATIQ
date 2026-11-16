@@ -214,7 +214,7 @@ def print_dead_ball_summary(result):
 
     total = len(result.score)
 
-    print("\nTACTIQ AI - DEAD BALL EVIDENCE REPORT")
+    print("\nSTRATIQ - DEAD BALL EVIDENCE REPORT")
     print("=" * 50)
     print(f"Total frames                 : {total:,}")
     print(f"Outside-boundary evidence   : {result.boundary_outside.sum():,}")
