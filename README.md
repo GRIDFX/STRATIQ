@@ -65,7 +65,6 @@ STRATIQ/
 ├── requirements-dev.txt
 ├── .gitignore
 ├── PROJECT_OVERVIEW.md
-├── PROJECT_STATUS.md
 └── TECHNICAL_REPORT.md
 ```
 
