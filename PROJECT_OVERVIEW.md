@@ -192,11 +192,22 @@ The development workflow includes:
 
 These checks establish software and pipeline correctness. They do not independently establish predictive accuracy on unseen matches.
 
-## 9. Current Scope
+## 9. Current Status and Scope
 
-The current implementation focuses on the Initial Challenge: frame-level team possession estimation.
+The Initial Challenge implementation is complete from an engineering perspective.
 
-The primary deliverable is a locally generated and validated submission.
+Completed work includes:
+
+- Structured tracking-data loading and validation.
+- Spatial feature extraction and team-level proximity analysis.
+- Stateful `H`/`A`/`X` possession estimation.
+- Separate dead-ball evidence and `D` state management.
+- Smart Tagging contextual integration.
+- Deterministic `frame,label` submission generation.
+- Local synthetic test coverage and compile checks.
+- Public technical documentation and repository hygiene checks.
+
+The owner has reported successful local generation of a 199,319-row submission and byte-for-byte reproducibility. Official validation must still be confirmed against the exact team-named CSV intended for upload. Engineering completion does not claim competition score, ranking, or acceptance.
 
 Potential future extensions, such as a web-based analytics dashboard, richer visualizations, or additional match-analysis capabilities, are outside the current submission-critical scope unless explicitly required by the organizers.
 
@@ -215,7 +226,19 @@ Potential sources of uncertainty include:
 
 The current rule-based approach also requires further evaluation to establish how well it generalizes to different matches and tracking conditions.
 
-## 11. Conclusion
+## 11. Submission Readiness
+
+The repository contains the source, documentation, pinned dependencies, tests, and reproducible commands needed to regenerate the submission from authorized local inputs.
+
+The competition submission remains separate from this public repository:
+
+- Submission file: one team-named `frame,label` CSV.
+- Technical document: team-named PDF or Markdown file.
+- Repository: public source and reproducibility materials.
+
+Before upload, the owner must validate the exact team-named CSV with the official validator and follow the organizer's submission instructions.
+
+## 12. Conclusion
 
 STRATIQ provides a modular and reproducible framework for estimating football possession from structured tracking data.
 
