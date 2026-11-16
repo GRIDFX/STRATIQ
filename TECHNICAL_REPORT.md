@@ -173,15 +173,26 @@ python -m pip install -r requirements-dev.txt
 
 ### Generate the submission
 
+Keep the competition data outside the public repository and run:
+
 ```bash
-python scripts/generate_submission_with_dead_ball.py
+PYTHONPATH=src python scripts/generate_submission_with_dead_ball.py \
+  --data-dir ../path/to/competition-data \
+  --output outputs/submission_with_dead_ball.csv
 ```
+
+The generator writes one `frame,label` row for each tactical-video frame.
 
 ### Validate the submission
 
 ```bash
-python scripts/validate_submission_local.py
+python scripts/validate_submission_local.py \
+  outputs/submission_with_dead_ball.csv
 ```
+
+The official validator remains authoritative. The expected contract is an exact
+`frame,label` header, 199,319 rows, frames `0` through `199318` in order, and
+labels restricted to `H`, `A`, `D`, or `X`.
 
 ### Run automated tests
 
