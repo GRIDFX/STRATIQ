@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local generated results
+outputs/
+evaluation/
+reports/
+
+# Private competition data
+data/
+datasets/
+*.mp4
+
+# Machine-specific lockfile
+requirements-lock-win-py314.txt
